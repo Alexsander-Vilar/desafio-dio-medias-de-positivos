@@ -1,13 +1,13 @@
-import java.io.IOException;
+
 import java.util.Scanner;
 
 public class MediaDeValoresPositivos {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args){
         Scanner leitor = new Scanner(System.in);
         int cont = 0;
         double media = 0;
         double valor = 0;
-        double num = 0;
+        double num =0;
 
         System.out.println("Digite seis valores\n");
 
